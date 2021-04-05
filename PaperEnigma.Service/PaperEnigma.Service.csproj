@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>dotnet-PaperEnigma.Service-9A11A93E-FA84-4C25-B85E-62AD5D4A1184</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PaperEnigma.Logic\PaperEnigma.Logic.csproj" />
+      <ProjectReference Include="..\PaperEnigma.Utils\PaperEnigma.Utils.csproj" />
+    </ItemGroup>
+</Project>

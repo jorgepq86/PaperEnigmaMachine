@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperEnigma.Service", "PaperEnigma.Service\PaperEnigma.Service.csproj", "{F2628B68-FD6E-47F4-BC59-8A24225DAECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperEnigma.Logic", "PaperEnigma.Logic\PaperEnigma.Logic.csproj", "{BE173266-0843-4AB2-BA30-55A6DDBB460D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperEnigma.Utils", "PaperEnigma.Utils\PaperEnigma.Utils.csproj", "{90FAE4C2-FA3F-4649-BBC2-EE49B29BD8B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2628B68-FD6E-47F4-BC59-8A24225DAECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2628B68-FD6E-47F4-BC59-8A24225DAECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2628B68-FD6E-47F4-BC59-8A24225DAECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2628B68-FD6E-47F4-BC59-8A24225DAECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE173266-0843-4AB2-BA30-55A6DDBB460D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE173266-0843-4AB2-BA30-55A6DDBB460D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE173266-0843-4AB2-BA30-55A6DDBB460D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE173266-0843-4AB2-BA30-55A6DDBB460D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FAE4C2-FA3F-4649-BBC2-EE49B29BD8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FAE4C2-FA3F-4649-BBC2-EE49B29BD8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FAE4C2-FA3F-4649-BBC2-EE49B29BD8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FAE4C2-FA3F-4649-BBC2-EE49B29BD8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

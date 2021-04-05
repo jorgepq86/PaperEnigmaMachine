@@ -8,13 +8,13 @@ namespace PaperEnigma.Logic
 {
     public class DachpcPaperEnigmaMachine : IPaperEnigmaMachine
     {
-        public List<string> InputOutputData => new List<string>
+        private static List<string> InputOutputData => new()
         {
             "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U",
             "V", "W", "X", "Y", "Z"
         };
 
-        public List<string> ReflectorData => new List<string>
+        private static List<string> ReflectorData => new()
         {
             "A", "B", "C", "D", "E", "F", "G", "D", "I", "J", "K", "G", "M", "K", "M", "I", "E", "B", "F", "T", "C", "V",
             "V", "J", "A", "T"
@@ -74,7 +74,7 @@ namespace PaperEnigma.Logic
             return returnMessage;
         }
 
-        private int GetInputOutputIndex(string letter) => InputOutputData.FindIndex(i => i == letter);
+        private static int GetInputOutputIndex(string letter) => InputOutputData.FindIndex(i => i == letter);
 
         private int GetOneWayIndex(int inputIndex)
         {
@@ -85,7 +85,7 @@ namespace PaperEnigma.Logic
             return _rotorOne.GetOneWayIndex(rotorTwoIndex);
         }
 
-        private int GetReflectorIndex(int index)
+        private static int GetReflectorIndex(int index)
         {
             string indexLetter = ReflectorData[index];
             int reflectorIndex = ReflectorData.FindIndex(r => r == indexLetter);
